@@ -58,7 +58,6 @@ function Forescast({title}) {
                 />
                 <p className="font-medium">22°</p>
             </div>
-
         </div>
     </div>
 }
