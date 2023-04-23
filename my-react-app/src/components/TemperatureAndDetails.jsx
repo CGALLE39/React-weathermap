@@ -40,6 +40,30 @@ function TemperatureAndDetails() {
                     </div>
                 </div>
             </div>
+
+          <div className="flex flex-row items-center justify-center space-x-2 text-white text-sm py-3">
+              <UilSun />
+              <p className="font-light"> Rise: <span className="font-medium ml-1">06:45 AM</span>
+              </p>
+
+              <UilSunset />
+              <p className="font-light"> Set: <span className="font-medium ml-1">07:35 PM</span>
+              </p>
+
+              <UilSun />
+              <p className="font-light"> High: <span className="font-medium ml-1">45°</span>
+              </p>
+
+              <UilSun />
+              <p className="font-light"> Low: <span className="font-medium ml-1">32°</span>
+              </p>
+              <p className="font-light">|</p>
+
+              <UilSun />
+              <p className="font-light"> Low: <span className="font-medium ml-1">32°</span>
+              </p>
+              <p className="font-light">|</p>
+          </div>
         </div>
     );
 }
